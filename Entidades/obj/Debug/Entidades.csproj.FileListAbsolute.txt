@@ -1,0 +1,18 @@
+C:\Users\matia\Desktop\ShopMarket\Entidades\bin\Debug\Entidades.dll
+C:\Users\matia\Desktop\ShopMarket\Entidades\bin\Debug\Entidades.pdb
+C:\Users\matia\Desktop\ShopMarket\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\matia\Desktop\ShopMarket\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\matia\Desktop\ShopMarket\Entidades\obj\Debug\Entidades.dll
+C:\Users\matia\Desktop\ShopMarket\Entidades\obj\Debug\Entidades.pdb
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV2\Entidades\bin\Debug\Entidades.dll
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV2\Entidades\bin\Debug\Entidades.pdb
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV2\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV2\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV2\Entidades\obj\Debug\Entidades.dll
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV2\Entidades\obj\Debug\Entidades.pdb
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV3\Entidades\bin\Debug\Entidades.dll
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV3\Entidades\bin\Debug\Entidades.pdb
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV3\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV3\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV3\Entidades\obj\Debug\Entidades.dll
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV3\Entidades\obj\Debug\Entidades.pdb

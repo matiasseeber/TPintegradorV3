@@ -1,0 +1,44 @@
+C:\Users\matia\Desktop\ShopMarket\Negocios\bin\Debug\Negocios.dll
+C:\Users\matia\Desktop\ShopMarket\Negocios\bin\Debug\Negocios.pdb
+C:\Users\matia\Desktop\ShopMarket\Negocios\bin\Debug\Datos.dll
+C:\Users\matia\Desktop\ShopMarket\Negocios\bin\Debug\Entidades.dll
+C:\Users\matia\Desktop\ShopMarket\Negocios\bin\Debug\Datos.pdb
+C:\Users\matia\Desktop\ShopMarket\Negocios\bin\Debug\Entidades.pdb
+C:\Users\matia\Desktop\ShopMarket\Negocios\obj\Debug\Negocios.csprojAssemblyReference.cache
+C:\Users\matia\Desktop\ShopMarket\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+C:\Users\matia\Desktop\ShopMarket\Negocios\obj\Debug\Negocios.csproj.CopyComplete
+C:\Users\matia\Desktop\ShopMarket\Negocios\obj\Debug\Negocios.dll
+C:\Users\matia\Desktop\ShopMarket\Negocios\obj\Debug\Negocios.pdb
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV2\Negocios\bin\Debug\Negocios.dll
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV2\Negocios\bin\Debug\Negocios.pdb
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV2\Negocios\bin\Debug\Datos.dll
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV2\Negocios\bin\Debug\Entidades.dll
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV2\Negocios\bin\Debug\Datos.pdb
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV2\Negocios\bin\Debug\Entidades.pdb
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV2\Negocios\obj\Debug\Negocios.csprojAssemblyReference.cache
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV2\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV2\Negocios\obj\Debug\Negocios.csproj.CopyComplete
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV2\Negocios\obj\Debug\Negocios.dll
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV2\Negocios\obj\Debug\Negocios.pdb
+C:\Users\matia\Downloads\TPintegradorV2\Negocios\bin\Debug\Negocios.dll
+C:\Users\matia\Downloads\TPintegradorV2\Negocios\bin\Debug\Negocios.pdb
+C:\Users\matia\Downloads\TPintegradorV2\Negocios\bin\Debug\Datos.dll
+C:\Users\matia\Downloads\TPintegradorV2\Negocios\bin\Debug\Entidades.dll
+C:\Users\matia\Downloads\TPintegradorV2\Negocios\bin\Debug\Datos.pdb
+C:\Users\matia\Downloads\TPintegradorV2\Negocios\bin\Debug\Entidades.pdb
+C:\Users\matia\Downloads\TPintegradorV2\Negocios\obj\Debug\Negocios.csprojAssemblyReference.cache
+C:\Users\matia\Downloads\TPintegradorV2\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+C:\Users\matia\Downloads\TPintegradorV2\Negocios\obj\Debug\Negocios.csproj.CopyComplete
+C:\Users\matia\Downloads\TPintegradorV2\Negocios\obj\Debug\Negocios.dll
+C:\Users\matia\Downloads\TPintegradorV2\Negocios\obj\Debug\Negocios.pdb
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV3\Negocios\bin\Debug\Negocios.dll
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV3\Negocios\bin\Debug\Negocios.pdb
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV3\Negocios\bin\Debug\Datos.dll
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV3\Negocios\bin\Debug\Entidades.dll
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV3\Negocios\bin\Debug\Datos.pdb
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV3\Negocios\bin\Debug\Entidades.pdb
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV3\Negocios\obj\Debug\Negocios.csprojAssemblyReference.cache
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV3\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV3\Negocios\obj\Debug\Negocios.csproj.CopyComplete
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV3\Negocios\obj\Debug\Negocios.dll
+D:\Facultad\CUATRIMESTRE 3\PROGRAMACION 3\TPintegradorV3\Negocios\obj\Debug\Negocios.pdb

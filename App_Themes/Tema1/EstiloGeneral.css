@@ -1,0 +1,16 @@
+﻿Body {
+    background-image: url("../../imagenes/fotoPan.jpg");
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: sans-serif;
+    background-size: cover;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+

@@ -1,0 +1,76 @@
+﻿body {
+    background-color: #000;
+}
+
+.Cartel {
+    margin: auto;
+    margin-top:100px;
+    position: relative;
+    width: 300px;
+    height: 150px;
+    text-align:center;
+}
+.imagen {
+    margin: auto;
+    margin-top: 80px;
+    position: relative;
+    width: 300px;
+    height: 150px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 270px;
+}
+
+    .container .loader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        border: 15px solid transparent;
+        border-top-color: rgb(124, 26, 148);
+        border-left-color: rgb(124, 26, 148);
+        border-radius: 50%;
+        animation: loader 1.2s linear infinite;
+    }
+
+    .container .loader2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 70%;
+        height: 70%;
+        border: solid 10px transparent;
+        border-top-color: rgb(26, 148, 73);
+        border-left-color: rgb(26, 148, 73);
+        border-radius: 50%;
+        animation: loader2 1.2s linear infinite;
+    }
+
+@keyframes loader {
+    0% {
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+
+@keyframes loader2 {
+    0% {
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%,-50%) rotate(-360deg);
+    }
+}

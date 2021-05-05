@@ -1,0 +1,354 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6D81335A-1945-4A12-8A87-8152BAD92706}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShopMarket</RootNamespace>
+    <AssemblyName>ShopMarket</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44317</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Tema1\ContenedorCentral.css" />
+    <Content Include="App_Themes\Tema1\Encabezado.css" />
+    <Content Include="App_Themes\Tema1\EstiloGeneral.css" />
+    <Content Include="App_Themes\Tema1\Footer.css" />
+    <Content Include="App_Themes\Tema1\hojaLogin.css" />
+    <Content Include="imagenes\AireAcondicionadoAlaska.jpg" />
+    <Content Include="imagenes\AspiradoraAtma.jpg" />
+    <Content Include="imagenes\banana.jpg" />
+    <Content Include="imagenes\Bife.jpg" />
+    <Content Include="imagenes\BolsasAsurin.jpg" />
+    <Content Include="imagenes\brhama.jpg" />
+    <Content Include="imagenes\CafeteraSmartlife.jpg" />
+    <Content Include="imagenes\CalefonOrbis.jpg" />
+    <Content Include="imagenes\CanastaLiquida.jpg" />
+    <Content Include="imagenes\CestoVaiven.jpg" />
+    <Content Include="imagenes\CocinaPeabody.jpg" />
+    <Content Include="imagenes\ColitaDeCuadril.jpg" />
+    <Content Include="imagenes\Costillar.jpg" />
+    <Content Include="imagenes\danette.jpg" />
+    <Content Include="imagenes\DesodoranteGlade.jpg" />
+    <Content Include="imagenes\duraznos.jpg" />
+    <Content Include="imagenes\encendedor.jpg" />
+    <Content Include="imagenes\EscobaPerla.jpg" />
+    <Content Include="imagenes\Escobilla.jpg" />
+    <Content Include="imagenes\EsponjaVirulana.jpg" />
+    <Content Include="imagenes\ExhibidoraBambi.jpg" />
+    <Content Include="imagenes\FaldaCarne.jpg" />
+    <Content Include="imagenes\FreezerSigma.jpg" />
+    <Content Include="imagenes\galletitasformis.jpg" />
+    <Content Include="imagenes\GuantesCocina.jpg" />
+    <Content Include="imagenes\HeladeraBajomesada.jpg" />
+    <Content Include="imagenes\HeladeraWhirlpool.jpg" />
+    <Content Include="imagenes\Helado.jpg" />
+    <Content Include="imagenes\HornoSmartlife.jpg" />
+    <Content Include="imagenes\ImpresoraHP.jpg" />
+    <Content Include="imagenes\JabonLiquidoAriel.jpg" />
+    <Content Include="imagenes\jagger.jpg" />
+    <Content Include="imagenes\Kefir.jpg" />
+    <Content Include="imagenes\langostinos.jpg" />
+    <Content Include="imagenes\LavandinaGelVim.jpg" />
+    <Content Include="imagenes\LavandinaQuerubin2lt.jpg" />
+    <Content Include="imagenes\LavarropasDrean.jpg" />
+    <Content Include="imagenes\Leche.jpg" />
+    <Content Include="imagenes\malvoro.jpg" />
+    <Content Include="imagenes\Manteca.jpg" />
+    <Content Include="imagenes\manzana.jpg" />
+    <Content Include="imagenes\Matambre.jpg" />
+    <Content Include="imagenes\mccainpapasfritas.jpg" />
+    <Content Include="imagenes\mccainpapasnoisette.jpg" />
+    <Content Include="imagenes\MicroondasBGH.jpg" />
+    <Content Include="imagenes\MopaVirulana.jpg" />
+    <Content Include="imagenes\NetbookLenovo.jpg" />
+    <Content Include="imagenes\PalaResiduos.jpg" />
+    <Content Include="imagenes\PapelHigienicoHigienol.jpg" />
+    <Content Include="imagenes\PapelHigienicoScott.jpg" />
+    <Content Include="imagenes\patagonia.jpg" />
+    <Content Include="imagenes\patysoja.jpg" />
+    <Content Include="imagenes\Peceto.jpg" />
+    <Content Include="imagenes\Pera.jpg" />
+    <Content Include="imagenes\pizzacongelada.jpg" />
+    <Content Include="imagenes\ProcesadoraLiliana.jpg" />
+    <Content Include="imagenes\Queso.jpg" />
+    <Content Include="imagenes\RepasadorTelaFrancesa.jpg" />
+    <Content Include="imagenes\RollitoVirulana.jpg" />
+    <Content Include="imagenes\SecarropasColumbia.jpg" />
+    <Content Include="imagenes\smirnoff.jpg" />
+    <Content Include="imagenes\TapaDeAsado.jpg" />
+    <Content Include="imagenes\termidor.jpg" />
+    <Content Include="imagenes\TermotanqueGas.jpg" />
+    <Content Include="imagenes\tomates.jpg" />
+    <Content Include="imagenes\Yogurt.jpg" />
+    <Content Include="Perfumería\1.jpg" />
+    <Content Include="Perfumería\10.jpg" />
+    <Content Include="Perfumería\11.png" />
+    <Content Include="Perfumería\12.jpg" />
+    <Content Include="Perfumería\13.jpg" />
+    <Content Include="Perfumería\14.jpg" />
+    <Content Include="Perfumería\15.jpg" />
+    <Content Include="Perfumería\16.jpg" />
+    <Content Include="Perfumería\17.jpg" />
+    <Content Include="Perfumería\18.jpg" />
+    <Content Include="Perfumería\19.jpg" />
+    <Content Include="Perfumería\2.jpg" />
+    <Content Include="Perfumería\20.jpg" />
+    <Content Include="Perfumería\21.jpg" />
+    <Content Include="Perfumería\22.jpg" />
+    <Content Include="Perfumería\23.jpg" />
+    <Content Include="Perfumería\24.png" />
+    <Content Include="Perfumería\25.jpg" />
+    <Content Include="Perfumería\26.png" />
+    <Content Include="Perfumería\27.jpg" />
+    <Content Include="Perfumería\28.jpg" />
+    <Content Include="Perfumería\29.jpg" />
+    <Content Include="Perfumería\3.jpg" />
+    <Content Include="Perfumería\30.jpg" />
+    <Content Include="Perfumería\31.jpg" />
+    <Content Include="Perfumería\32.jpg" />
+    <Content Include="Perfumería\33.jpg" />
+    <Content Include="Perfumería\34.jpg" />
+    <Content Include="Perfumería\35.jpg" />
+    <Content Include="Perfumería\36.jpg" />
+    <Content Include="Perfumería\37.jpg" />
+    <Content Include="Perfumería\38.jpg" />
+    <Content Include="Perfumería\39.jpg" />
+    <Content Include="Perfumería\4.png" />
+    <Content Include="Perfumería\40.jpg" />
+    <Content Include="Perfumería\41.jpg" />
+    <Content Include="Perfumería\42.png" />
+    <Content Include="Perfumería\43.jpeg" />
+    <Content Include="Perfumería\44.jpeg" />
+    <Content Include="Perfumería\45.jpeg" />
+    <Content Include="Perfumería\46.jpeg" />
+    <Content Include="Perfumería\47.jpg" />
+    <Content Include="Perfumería\48.jpg" />
+    <Content Include="Perfumería\5.jpg" />
+    <Content Include="Perfumería\6.jpg" />
+    <Content Include="Perfumería\7.png" />
+    <Content Include="Perfumería\8.jpg" />
+    <Content Include="Perfumería\9.jpg" />
+    <Content Include="QuesosFiambres\49.png" />
+    <Content Include="QuesosFiambres\50.jpg" />
+    <Content Include="QuesosFiambres\51.jpg" />
+    <Content Include="QuesosFiambres\52.jpg" />
+    <Content Include="QuesosFiambres\53.jpg" />
+    <Content Include="QuesosFiambres\54.jpg" />
+    <Content Include="QuesosFiambres\55.jpg" />
+    <Content Include="QuesosFiambres\56.jpg" />
+    <Content Include="QuesosFiambres\57.jpg" />
+    <Content Include="QuesosFiambres\58.jpg" />
+    <Content Include="QuesosFiambres\59.jpg" />
+    <Content Include="QuesosFiambres\60.jpg" />
+    <Content Include="QuesosFiambres\61.jpg" />
+    <Content Include="QuesosFiambres\62.jpg" />
+    <Content Include="QuesosFiambres\63.jpg" />
+    <Content Include="QuesosFiambres\64.jpg" />
+    <Content Include="QuesosFiambres\65.jpg" />
+    <Content Include="QuesosFiambres\66.jpg" />
+    <Content Include="QuesosFiambres\67.jpg" />
+    <Content Include="QuesosFiambres\68.jpg" />
+    <Content Include="QuesosFiambres\69.jpg" />
+    <Content Include="QuesosFiambres\70.jpg" />
+    <Content Include="QuesosFiambres\71.jpg" />
+    <Content Include="QuesosFiambres\72.jpg" />
+    <Content Include="QuesosFiambres\73.jpg" />
+    <Content Include="QuesosFiambres\74.jpg" />
+    <Content Include="QuesosFiambres\75.jpg" />
+    <Content Include="QuesosFiambres\76.jpg" />
+    <Content Include="QuesosFiambres\77.jpg" />
+    <Content Include="QuesosFiambres\78.jpg" />
+    <Content Include="Vistas\Login\Carga.aspx" />
+    <Content Include="Vistas\Login\carga.css" />
+    <Content Include="imagenes\1 %282%29.png" />
+    <Content Include="imagenes\2.jpg" />
+    <Content Include="imagenes\fotoPan.jpg" />
+    <Content Include="imagenes\imagenCarrito.png" />
+    <Content Include="imagenes\logo.ico" />
+    <Content Include="imagenes\logo.jpg" />
+    <Content Include="imagenes\opening.jpg" />
+    <Content Include="Vistas\Login\Login.aspx" />
+    <Content Include="Vistas\Login\registrarse.aspx" />
+    <Content Include="Vistas\Administrador\Administrador.aspx" />
+    <Content Include="Vistas\Carrito\Carrito.aspx" />
+    <Content Include="Vistas\Mi-cuenta\Mi-cuenta.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Vistas\home\Home.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Vistas\Login\Carga.aspx.cs">
+      <DependentUpon>Carga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Login\Carga.aspx.designer.cs">
+      <DependentUpon>Carga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Login\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Login\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Login\registrarse.aspx.cs">
+      <DependentUpon>registrarse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Login\registrarse.aspx.designer.cs">
+      <DependentUpon>registrarse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Administrador\Administrador.aspx.cs">
+      <DependentUpon>Administrador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Administrador\Administrador.aspx.designer.cs">
+      <DependentUpon>Administrador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Carrito\Carrito.aspx.cs">
+      <DependentUpon>Carrito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Carrito\Carrito.aspx.designer.cs">
+      <DependentUpon>Carrito.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaEdicion.Master.cs">
+      <DependentUpon>PaginaEdicion.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginaEdicion.Master.designer.cs">
+      <DependentUpon>PaginaEdicion.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistas\home\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\home\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mi-cuenta\Mi-cuenta.aspx.cs">
+      <DependentUpon>Mi-cuenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mi-cuenta\Mi-cuenta.aspx.designer.cs">
+      <DependentUpon>Mi-cuenta.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PaginaEdicion.Master" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Entidades\Entidades.csproj">
+      <Project>{b5a63395-4ab4-4048-b3ec-79cf8cc20934}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="Negocios\Negocios.csproj">
+      <Project>{924846b7-0abf-4ece-9e29-22600ca7a3e1}</Project>
+      <Name>Negocios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49516</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44317/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

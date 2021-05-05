@@ -1,0 +1,146 @@
+﻿
+footer {
+    width: 100%;
+    background-color: #202020;
+    color: white;
+    margin-top: 75px;
+    bottom: 0;
+    
+}
+
+.body {
+    height: calc(100vh - 400px);
+    margin-bottom: 40px;
+}
+
+.containerFull {
+    position:relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding: 40px;
+    margin-bottom:0px;
+}
+
+.container-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna1 {
+    max-width: 400px;
+}
+
+    .columna1 h2, h1 {
+        font-size: 20px;
+    }
+
+    .columna1 p {
+        font-size: 14px;
+        color: #c7c7c7;
+        margin-top: 28px;
+    }
+
+.columna2 {
+    max-width: 400px;
+}
+
+    .columna2 h1 {
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+.fila {
+    margin-top: 20px;
+    display: flex;
+}
+
+.fila2 i {
+    padding: 8px;
+}
+
+.fila a {
+    text-decoration: none;
+    color: #c7c7c7;
+}
+
+.fila i {
+    padding: 8px;
+}
+
+.pago i {
+    padding: 8px;
+}
+
+.columna3 {
+    max-width: 400px;
+}
+
+    .columna3 h1 {
+        font-size: 20px;
+    }
+
+.fila2 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.containerFooter {
+    max-width: 100%;
+    background-color: #101010;
+}
+
+.foot {
+    color: #c7c7c7;
+    display: flex;
+    justify-content: space-between;
+    padding: 55px;
+}
+
+.copyright a {
+    color: white;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:1100px) {
+    .container-body {
+        flex-wrap: wrap;
+    }
+
+    .columna2, .columna3 {
+        margin-top: 40px;
+    }
+}
+
+.pago i:hover {
+    color: rgb(201, 127, 15);
+}
+
+.fila i:hover {
+    color: rgb(15, 96, 201);
+}
+
+.fila2 i:hover {
+    color: rgb(15, 201, 123);
+}
+
+h1 i {
+    padding: 7px;
+}
+
+h2 i {
+    padding: 7px;
+    
+}
+
+h1 i:hover {
+    color: rgb(148, 15, 201);
+}
+
+h2 i:hover {
+    color: rgb(148, 15, 201);
+}
+
+
