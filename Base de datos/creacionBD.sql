@@ -169,12 +169,12 @@ go
 
 /*FACTURAS*/
 
-create procedure agregarFactura
+CREATE procedure agregarFactura
 @dniUsuario varchar(15),
 @montoFinal decimal(30,2)
 as
 insert into facturas (dni_Usuario,fecha_venta,monto_final)
-values (@dniUsuario,(SELECT CONVERT(VARCHAR(10), GETDATE(), 103) AS [DD/MM/YYYY]),@montoFinal)
+values (@dniUsuario,(SELECT CONVERT(VARCHAR(19), GETDATE(), 120)),@montoFinal)
 go
 
 
